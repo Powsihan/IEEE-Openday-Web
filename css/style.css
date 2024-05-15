@@ -376,8 +376,44 @@ footer {
   font-size: 16px !important;
 }
 
+.sliderImage{
+  /* width: 20%; */
+  justify-content: center;
+  height: auto;
+  display: flex;
+  flex-direction: row; 
+  padding: 20px !important;
+  
+}
+.imgDiv {
+  flex: 1 0 200px;
+}
+.imgDiv p,.imgDiv h3,.item h1{
+color: white !important;
+}
+.sliderImage img{
+  width: 320px !important;
+  height: 340px !important;
+  opacity: 0.8;
+  border-radius: 17px;
+  /* margin-top: 25px !important; */
+  margin: 10px;
+  
+  
+  /* display: inline !important; */
+}
 
-
+#carousel-example-generic{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.733)), url("../images/UWUImage3.jpg");
+  background-repeat: no-repeat;
+background-size:cover;
+background-position:top ;
+background-attachment:fixed;
+}
+/* .imageSize {
+  margin: 20px;
+  width: 350px !important; 
+} */
 /*---------------------------------------
    Program section              
 -----------------------------------------*/
@@ -867,7 +903,23 @@ color: #fff;
   text-align: justify;
 }
 
+@media screen and (max-width:1080px){
+  .sliderImage img{
+    width: 280px !important;
+  }
+}
+@media screen and (max-width:920px){
+  .sliderImage img{
+    width: 220px !important;
+  }
+}
+@media screen and (max-width:768px){
+  .sliderImage {
+    flex-direction: column !important;
+   
+  }
 
+}
 /* .team-card-section{
   display: flex;
   flex-direction: row;
