@@ -1,0 +1,118 @@
+/*---------------------------------------
+    Navigation Links section
+-----------------------------------------*/
+.custom-navbar {
+    margin-bottom: 0;
+    background-color: #101010 !important;
+}
+
+.custom-navbar .navbar-brand img{
+    width: 100px;
+    height: 50px;
+}
+
+.custom-navbar .nav li a {
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+    background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #66ccff;
+}
+
+.custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+    background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+    background: #ffffff;
+    border-color: transparent;
+}
+
+@media(min-width:768px) {
+    .custom-navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        background: 0 0;
+    }
+    .custom-navbar.top-nav-collapse {
+        background: #101010;
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .custom-navbar .navbar-brand img{
+        width: 60px;
+        height: 30px;
+    }
+
+}
+
+#gallery{
+    background-image: url("../images/galleryBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: #050d42;*/
+    position: absolute!important;
+    top:17% !important;
+}
+.galleryImg{
+    margin: 10px 0;
+   position: relative;
+    right: 5px;
+    width: 103%;
+    height: 220px;
+    border-radius: 10px;
+    transition: 1.1s;
+}
+.galleryImg:hover{
+    transform: scale(1.07);
+}
+#galleryTitle h1{
+    margin:30px ;
+    color: white;
+    text-align: center;
+    font-weight: bold!important;
+}
+@media screen and (max-width:992px){
+    #gallery{
+        top:25% !important;
+    }
+
+}
+@media screen and (max-width:768px){
+    #gallery{
+        top:8% !important;
+    }
+    .galleryImg{
+        margin: 30px;
+        width: 94%;
+        right: 13px;
+    }
+
+}

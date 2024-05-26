@@ -232,7 +232,7 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage"> 
 					<div class="imgDiv">
 					<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-					<h3>Members Of Our OC </h2>
+					<h3>Members Of Our OC </h3>
 					<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -242,17 +242,17 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage" > 
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -262,7 +262,7 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage"> 
 					<div class="imgDiv">
 					<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-					<h3>Members Of Our OC </h2>
+					<h3>Members Of Our OC </h3>
 					<p>Lorem ipsum dolor sit amet</p>
 				</div>
 				</div>
@@ -273,17 +273,17 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage" > 
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -294,12 +294,12 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage" > 
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -310,12 +310,12 @@ http://www.templatemo.com/tm-486-new-event
 				<div class="sliderImage" > 
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="imgDiv"> 
 						<img src="images/speakers-img2.jpg"  alt="images/speakers-img2.jpg"  >
-						<h3>Members Of Our OC </h2>
+						<h3>Members Of Our OC </h3>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -721,14 +721,13 @@ http://www.templatemo.com/tm-486-new-event
 		<div class="container">
 			<div class="row">
 
-				<div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
-					<h2>Venue</h2>
+				<div class="wow  col-md-offset-1 col-md-5 col-sm-8" data-wow-delay="0.9s">
+					<h2 id="galleryHead">Gallery</h2>
+					<div id="galleryIntroImg"><img src="images/speakers-img3.jpg" alt="galleryIntroImg"></div>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
 						ut laoreet. Dolore magna aliquam erat volutpat.</p>
-					<h4>New Event</h4>
-					<h4>120 Market Street, Suite 110</h4>
-					<h4>San Francisco, CA 10110</h4>
-					<h4>Tel: 010-020-0120</h4>
+					<button type="button" class="btn btn-primary"><a href="gallery.html" > View gallery</a></button>
+
 				</div>
 
 			</div>
@@ -860,7 +859,7 @@ http://www.templatemo.com/tm-486-new-event
 
 
 	<!-- =========================
-     SCRIPTS   	
+     SCRIPTS
 ============================== -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -869,6 +868,19 @@ http://www.templatemo.com/tm-486-new-event
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+	ScrollReveal({
+		distance:'40px',
+		duration:2000,
+		delay:100,
+	});
+
+	ScrollReveal().reveal('.wow p,.wow button ', { origin:'bottom' });
+	ScrollReveal().reveal('#galleryHead' , { origin:'left' });
+	ScrollReveal().reveal('#galleryIntroImg' , { origin:'right' });
+</script>
 
 </body>
 
