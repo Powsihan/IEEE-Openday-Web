@@ -377,30 +377,35 @@ footer {
 }
 
 .sliderImage{
-  /* width: 20%; */
+
   justify-content: center;
   height: auto;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   padding: 20px !important;
-  
+
 }
 .imgDiv {
-  flex: 1 0 200px;
+  flex: 1 0 auto;
+
 }
 .imgDiv p,.imgDiv h3,.item h1{
 color: white !important;
 }
+.item h1{
+    margin-bottom: 40px;
+    text-decoration: underline!important;
+}
 .sliderImage img{
-  width: 320px !important;
-  height: 340px !important;
+  width: 150px !important;
+  height: 150px !important;
   opacity: 0.8;
-  border-radius: 17px;
-  /* margin-top: 25px !important; */
-  margin: 10px;
-  
-  
-  /* display: inline !important; */
+  border-radius: 100%;
+margin: auto;
+}
+.exCom{
+    position: relative;
+    left: 25%;
 }
 
 #carousel-example-generic{
@@ -409,11 +414,8 @@ color: white !important;
 background-size:cover;
 background-position:top ;
 background-attachment:fixed;
+    padding: 50px;
 }
-/* .imageSize {
-  margin: 20px;
-  width: 350px !important; 
-} */
 /*---------------------------------------
    Program section              
 -----------------------------------------*/
@@ -791,7 +793,17 @@ footer {
    Responsive styles            
 -----------------------------------------*/
 @media (max-width: 980px) {
+    .sliderImage img{
+        width: 100px !important;
+        height: 100px !important;
+    }
 
+    .imgDiv p{
+       font-size: 10px;
+    }
+    .imgDiv h3{
+        font-size: 13px !important;
+    }
   p {font-size: 13px;}
 
   .custom-navbar .navbar-brand {
@@ -844,6 +856,10 @@ footer {
     margin-top: 82px;
   }
 
+    .exCom{
+        position: relative;
+        left: auto;
+    }
 }
 
 @media (max-width: 760px) {
@@ -922,16 +938,6 @@ color: #fff;
   text-align: justify;
 }
 
-@media screen and (max-width:1080px){
-  .sliderImage img{
-    width: 280px !important;
-  }
-}
-@media screen and (max-width:920px){
-  .sliderImage img{
-    width: 220px !important;
-  }
-}
 @media screen and (max-width:768px){
   .sliderImage {
     flex-direction: column !important;
