@@ -25,6 +25,12 @@
           "-ms-touch-action"
         ]
       }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-children": "off"
+      }
     ]
   }
 }

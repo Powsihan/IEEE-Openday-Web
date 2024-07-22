@@ -139,6 +139,13 @@ footer {
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+#galleryIntroImg img {
+  width: 100% !important;
+  height: auto !important;
 }
 
 
