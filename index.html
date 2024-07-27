@@ -90,9 +90,9 @@ INTRO SECTION
                     <h1 class="wow fadeInUp" data-wow-delay="1.6s">IEEE OPENDAY 2024</h1>
                     <h5 class="wow bounceIn" data-wow-delay="0.9s">For the Betterment of envolving technological world
                         explorers</h5>
-                    <h6 class="wow bounceIn " data-wow-delay="0.9s">Haven't registered for Open Day 2024 yet ? Don't
+                    <h6 class="wow bounceIn" data-wow-delay="0.9s">Haven't registered for Open Day 2024 yet ? Don't
                         miss out, secure your spot by registering now.</h6>
-                    <div id="countdown"></div>
+                    <div id="countdown" class="wow bounceInDown" data-wow-delay="0.9s"></div>
                     <a href="#register" class="btn btn-lg btn-danger wow fadeInUp nav-link"
                         data-wow-delay="2.3s">REGISTER NOW</a>
                 </div>
@@ -127,7 +127,7 @@ about SECTION
                         opportunity to learn more about IEEE, its activities, and the latest trends in technology.</p>
                     <h6>Connect with Us</h6>
                     <ul class="social-icon-about">
-                        <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                        <li><a href="https://www.facebook.com/share/9cUg2CmxVbCkQ34V" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
                         <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.3s"></a></li>
                         <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="1.6s"></a></li>
                     </ul>
@@ -218,8 +218,7 @@ SPEAKERS SECTION
                         <div class="imgDiv">
                             <img src="images/Thipuni Wijesinghe.jpg" alt="images/speakers-img2.jpg"
                                 class="img-responsive">
-                            <h3>Kavindra_Weerasinghe</h3>
-
+                            <h3>Thipuni</h3>
                         </div>
                     </div>
                 </div>
@@ -489,7 +488,7 @@ PROGRAM SECTION
 
                 <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
                     <div class="section-title">
-                        <h2>Agenda</h2>
+                        <h2 style="color: rgb(0, 0, 57); font-weight: 700;">Agenda</h2>
                     </div>
                 </div>
 
@@ -508,8 +507,8 @@ PROGRAM SECTION
                         </div>
 
                         <div role="tabpanel" class="tab-pane" id="sday">
-                            <div class="col-md-10 col-sm-10">
-
+                            <div class="col-md-10 col-sm-10" id="events-container2">
+                                <!-- Dynamic content will be injected here -->
                             </div>
 
                         </div>
@@ -659,7 +658,7 @@ FOOTER SECTION
                         </div>
                     </div>
                     <ul class="social-icon">
-                        <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                        <li><a href="https://www.facebook.com/share/9cUg2CmxVbCkQ34V" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
                         <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.3s"></a></li>
                         <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="1.6s"></a></li>
                     </ul>
@@ -730,51 +729,74 @@ FOOTER SECTION
         }, 1000);
     </script>
 
-<script>
-    // Data structure
-    const events = [
-        { time: '1.00 - 1.10pm', description: 'Lighting the oil lamp' },
-        { time: '1.10 - 1.15pm', description: 'University anthem' },
-        { time: '1.15 - 1.20pm', description: 'Welcome Speech' },
-        { time: '1.20 - 1.25 pm', description: 'dancing' },
-        { time: '1.25 - 1.30pm', description: 'council' },
-        { time: '1.30 - 1.35pm', description: 'history of IEEE UWU SB' },
-        { time: '1.35 - 1.45pm', description: 'Chief guest speech' },
-        { time: '1.45 - 2.05pm', description: 'Year plan' },
-        { time: '2.05 - 2.35pm', description: 'Keynote speech 1' },
-        { time: '2.05 - 2.20pm', description: 'break' },
-        { time: '2.20 - 2.40pm', description: 'keynote speech 2' },
-        { time: '2.40 - 2.50pm', description: 'Announcing winners and prize giving' },
-        { time: '2.50 - 3.00pm', description: 'Vote of thanks' },
-        { time: '3.00 - 3.05pm', description: 'National anthem' },
 
-    ];
 
-    // Function to create event elements
-    function createEventElement(event) {
-        const container = document.createElement('div');
-        container.style.display = 'flex'; // Apply display: flex inline style
+    <script>
+        // Data structure
+        const events1 = [
+            { time: '1.00 - 1.10pm', description: 'Lighting the oil lamp' },
+            { time: '1.10 - 1.15pm', description: 'University anthem' },
+            { time: '1.15 - 1.20pm', description: 'Welcome Speech' },
+            { time: '1.20 - 1.25pm', description: 'dancing' },
+            { time: '1.25 - 1.30pm', description: 'council' },
+            { time: '1.30 - 1.35pm', description: 'history of IEEE UWU SB' },
+            { time: '1.35 - 1.45pm', description: 'Chief guest speech' },
+            { time: '1.45 - 2.05pm', description: 'Year plan' },
+            { time: '2.05 - 2.35pm', description: 'Keynote speech 1' },
+            { time: '2.05 - 2.20pm', description: 'break' },
+            { time: '2.20 - 2.40pm', description: 'keynote speech 2' },
+            { time: '2.40 - 2.50pm', description: 'Announcing winners and prize giving' },
+            { time: '2.50 - 3.00pm', description: 'Vote of thanks' },
+            { time: '3.00 - 3.05pm', description: 'National anthem' },
 
-        const timeElement = document.createElement('h5');
-        timeElement.innerHTML = `<span><i class="fa fa-clock-o time"></i>${event.time}</span>`;
-        container.appendChild(timeElement);
+        ];
 
-        const descriptionElement = document.createElement('h5');
-        descriptionElement.style.fontWeight = '600'; // Inline style for font-weight
-        descriptionElement.style.color = 'rgb(0, 0, 71)'; // Inline style for color
-        descriptionElement.textContent = event.description;
-        container.appendChild(descriptionElement);
+        const events2 = [
+            { time: '7.00 - 7.05pm', description: 'Welcome speech' },
+            { time: '7.05 - 7.10pm', description: 'starting fire' },
+            { time: '7.10 - 7.20pm', description: 'singing' },
+            { time: '7.20 - 7.40pm', description: 'entertainment event(' },
+            { time: '7.40 - 8.00pm', description: 'Refreshments' },
+            { time: '8.00 - 8.30pm', description: 'Guest speak' },
+            { time: '8.30 - 8.40pm', description: 'group game' },
+            { time: '8.40 - 8.50pm', description: 'singing' },
+            { time: '8.50 - 9.00pm', description: 'ending speech' },
+        ];
 
-        return container;
-    }
+        // Function to create event elements
+        function createEventElement(event) {
+            const container = document.createElement('div');
+            container.className = 'event';
+            container.style.display = 'flex';// Apply class for styling
 
-    // Inject dynamic content into the DOM
-    const eventsContainer = document.getElementById('events-container');
-    events.forEach(event => {
-        const eventElement = createEventElement(event);
-        eventsContainer.appendChild(eventElement);
-    });
-</script>
+            const timeElement = document.createElement('h5');
+            timeElement.innerHTML = `<span><i class="fa fa-clock-o time"></i>${event.time}</span>`;
+            container.appendChild(timeElement);
+
+            const descriptionElement = document.createElement('h5');
+            descriptionElement.style.fontWeight = '600'; // Inline style for font-weight
+            descriptionElement.style.color = 'rgb(0, 0, 71)';
+            descriptionElement.style.textTransform = 'capitalize';
+            descriptionElement.className = 'description'; // Apply class for styling
+            descriptionElement.textContent = event.description;
+            container.appendChild(descriptionElement);
+
+            return container;
+        }
+
+        // Function to inject events into a container
+        function injectEvents(containerId, events) {
+            const eventsContainer = document.getElementById(containerId);
+            events.forEach(event => {
+                const eventElement = createEventElement(event);
+                eventsContainer.appendChild(eventElement);
+            });
+        }
+
+        // Inject dynamic content into the DOM
+        injectEvents('events-container', events1);
+        injectEvents('events-container2', events2);
+    </script>
 
 
 </body>
