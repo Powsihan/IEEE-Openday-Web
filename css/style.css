@@ -148,6 +148,14 @@ footer {
   height: auto !important;
 }
 
+#countdown{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
 
 
 /*---------------------------------------
