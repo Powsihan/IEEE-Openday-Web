@@ -7,27 +7,33 @@ http://www.templatemo.com/tm-486-new-event
 */
 
 body {
-		background: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-		font-weight: 400;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 
 /*---------------------------------------
     Typorgraphy              
 -----------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
 }
 
-h3,h5 {
+h3,
+h5 {
   font-weight: 500;
 }
 
 h1 {
-    font-size: 40px;
-    letter-spacing: 2px;
+  font-size: 40px;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -40,14 +46,14 @@ h3 {
 }
 
 h5 {
-    letter-spacing: 1px;
-    padding-top: 10px;
+  letter-spacing: 1px;
+  padding-top: 10px;
 }
 
 p {
-    color: #707070;
-    font-size: 14px;
-    line-height: 24px;
+  color: #707070;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 a {
@@ -69,51 +75,55 @@ a {
   padding-bottom: 14rem;
 }
 
-#detail, #video,
-#speakers, 
+#detail,
+#video,
+#speakers,
 #program,
-#sponsors, 
-#contact, footer {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+#sponsors,
+#contact,
+footer {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 #detail,
-#speakers, #sponsors,
+#speakers,
+#sponsors,
 footer {
   text-align: center;
 }
 
 #about h3,
-#detail h3, #video h3,
+#detail h3,
+#video h3,
 #register h3,
 #venue h3,
 #contact h3 {
-    padding-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 #intro .btn,
 #contact .btn {
-    background: transparent;
-    border: 2px solid #ffffff;
-    border-radius: 0px;
-    color: #ffffff;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 12px;
-    padding: 14px 42px;
-    margin-top: 42px;
-    margin-right: 12px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 14px 42px;
+  margin-top: 42px;
+  margin-right: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 #intro .btn-danger,
 #contact .btn-danger {
-    background: #1700e7;
-    border-color: transparent;
-    border-radius: 5px;
-    font-size: 16px;
+  background: #1700e7;
+  border-color: transparent;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 #contact .btn {
@@ -131,9 +141,9 @@ footer {
 }
 
 #intro .btn-default:hover {
-    background: #ffffff;
-    color: #333333;
-    border-color: transparent;
+  background: #ffffff;
+  color: #333333;
+  border-color: transparent;
 }
 
 .parallax-section {
@@ -148,7 +158,7 @@ footer {
   height: auto !important;
 }
 
-#countdown{
+#countdown {
   margin-top: 10px;
   font-weight: 700;
   font-size: 3em;
@@ -180,29 +190,42 @@ footer {
   height: 50px;
   background-color: #222;
   -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
-          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
+  animation: sk-rotatePlane 1.2s infinite ease-in-out;
+}
 
 @-webkit-keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
 
 @keyframes sk-rotatePlane {
   0% {
     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
   50% {
     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
   100% {
     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
 
 
 
@@ -210,81 +233,84 @@ footer {
     Navigation Links section              
 -----------------------------------------*/
 .custom-navbar {
-    margin-bottom: 0;
-    background-color: #101010 !important;
+  margin-bottom: 0;
+  background-color: #101010 !important;
 }
 
-.custom-navbar .navbar-brand img{
-    width: 70px;
-    /* height: 50px; */
+.custom-navbar .navbar-brand img {
+  width: 70px;
+  /* height: 50px; */
 }
-.student-branch-img img{
+
+.student-branch-img img {
   width: 200px !important;
 }
 
 .custom-navbar .nav li a {
-    color: #ddd;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-    line-height: 40px;
-    transition: all 0.4s ease-in-out;
+  color: #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  line-height: 40px;
+  transition: all 0.4s ease-in-out;
 }
 
 .custom-navbar .nav li a:hover {
-    background: transparent;
-    color: #66ccff;
+  background: transparent;
+  color: #66ccff;
 }
 
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus {
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
   background-color: transparent;
 }
 
-.custom-navbar .nav li.active > a {
-    background-color: transparent;
-    color: #66ccff;
+.custom-navbar .nav li.active>a {
+  background-color: transparent;
+  color: #66ccff;
 }
 
 .custom-navbar .navbar-toggle {
-    border: none;
-    padding-top: 10px;
+  border: none;
+  padding-top: 10px;
 }
 
 .custom-navbar .navbar-toggle {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #ffffff;
-    border-color: transparent;
+  background: #ffffff;
+  border-color: transparent;
 }
 
 @media(min-width:768px) {
-    .custom-navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        background: 0 0; 
-    }
-    .custom-navbar.top-nav-collapse {
-        background: #101010;
-        padding: 0;
-    }
-    
+  .custom-navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    background: 0 0;
+  }
+
+  .custom-navbar.top-nav-collapse {
+    background: #101010;
+    padding: 0;
+  }
+
 
 }
 
 
 @media (max-width:768px) {
-  .custom-navbar .navbar-brand img{
+  .custom-navbar .navbar-brand img {
     width: 50px;
     height: 30px;
-}
-.navbar-brand-student img{
-  width: 50px;
-}
-  
+  }
+
+  .navbar-brand-student img {
+    width: 50px;
+  }
+
 }
 
 
@@ -293,21 +319,21 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/back1.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
-    display: -webkit-box;
-    display: -webkit-flex;
-     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-     -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-    height: 100vh;
-    text-align: center;
+  background: url('../images/back1.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
 #intro h3 {
@@ -330,8 +356,8 @@ footer {
     Detail section              
 -----------------------------------------*/
 #detail {
-    background: #222;
-    color: #ffffff;
+  background: #222;
+  color: #ffffff;
 }
 
 #detail .fa {
@@ -354,12 +380,12 @@ footer {
    Speakers section              
 -----------------------------------------*/
 #speakers {
-    background: #f9f9f9;
+  background: #f9f9f9;
 }
 
 #speakers h3 {
-    font-size: 18px;
-    margin-bottom: 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
 }
 
 #speakers h6 {
@@ -374,30 +400,30 @@ footer {
 }
 
 #speakers .col-md-3 {
-    display: block;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 22px;
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 #speakers .speakers-wrapper {
-    background: #010755;
-    padding-bottom: 22px;
-    border-radius: 10px;
+  background: #010755;
+  padding-bottom: 22px;
+  border-radius: 10px;
 }
 
-.speakers-thumb h3{
+.speakers-thumb h3 {
   font-size: 25px !important;
   color: #ffff !important;
 }
 
-.speakers-thumb h6{
+.speakers-thumb h6 {
   color: #918c8c !important;
   font-size: 16px !important;
 }
 
-.sliderImage{
+.sliderImage {
 
   justify-content: center;
   height: auto;
@@ -406,43 +432,51 @@ footer {
   padding: 20px !important;
 
 }
+
 .imgDiv {
   flex: 1 0 auto;
 
 }
-.imgDiv p,.imgDiv h3,.item h1{
-color: white !important;
+
+.imgDiv p,
+.imgDiv h3,
+.item h1 {
+  color: white !important;
 }
-.item h1{
-    margin-bottom: 40px;
-    text-decoration: underline!important;
+
+.item h1 {
+  margin-bottom: 40px;
+  text-decoration: underline !important;
 }
-.sliderImage img{
+
+.sliderImage img {
   width: 150px !important;
   height: 150px !important;
   opacity: 0.8;
   border-radius: 100%;
-margin: auto;
-}
-.exCom{
-    position: relative;
-    left: 25%;
+  margin: auto;
 }
 
-#carousel-example-generic{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.733)), url("../images/UWUImage3.jpg");
-  background-repeat: no-repeat;
-background-size:cover;
-background-position:top ;
-background-attachment:fixed;
-    padding: 50px;
+.exCom {
+  position: relative;
+  left: 25%;
 }
+
+#carousel-example-generic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.733)), url("../images/UWUImage3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  padding: 50px;
+}
+
 /*---------------------------------------
    Program section              
 -----------------------------------------*/
 #program h4 {
-    color: #808080;
-    font-size: 12px;
+  color: #808080;
+  font-size: 12px;
 }
 
 #program h3 {
@@ -450,13 +484,13 @@ background-attachment:fixed;
 }
 
 #program .program-divider {
-    border: 1px solid #f9f9f9;
-    margin-top: 32px;
-    margin-bottom: 42px;
+  border: 1px solid #f9f9f9;
+  margin-top: 32px;
+  margin-bottom: 42px;
 }
 
 #program span {
-    padding-right: 12px;
+  padding-right: 12px;
 }
 
 #program img {
@@ -466,11 +500,13 @@ background-attachment:fixed;
 .nav-tabs {
   margin-bottom: 20px;
 }
-.nav-tabs > li {
+
+.nav-tabs>li {
   float: left;
   margin-bottom: -1px;
 }
-.nav-tabs > li > a {
+
+.nav-tabs>li>a {
   color: #000000;
   font-weight: 600;
   margin-right: 2px;
@@ -478,18 +514,21 @@ background-attachment:fixed;
   border: none;
   border-radius: 0px;
 }
-.nav-tabs > li > a:hover {
+
+.nav-tabs>li>a:hover {
   background-color: transparent;
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
   color: #f2545f;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
   border-bottom-color: #999;
 }
+
 .tab-content {
   padding-top: 20px;
 }
@@ -500,11 +539,11 @@ background-attachment:fixed;
     Regsiter section              
 -----------------------------------------*/
 #register {
-    background: url('../images/back2.jpg') 50% 0 repeat-y fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    color: #ffffff;
+  background: url('../images/back2.jpg') 50% 0 repeat-y fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
 }
 
 #register .form-control {
@@ -606,37 +645,42 @@ background-attachment:fixed;
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/IEEE.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    /*background-position: center center;*/
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+  background: url('../images/IEEE.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  /*background-position: center center;*/
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
-#venue h2{
+
+#venue h2 {
   position: relative;
-    bottom: 10px;
-    color: white;
-    font-size: 40px!important;
-    font-weight: 700;
+  bottom: 10px;
+  color: white;
+  font-size: 40px !important;
+  font-weight: 700;
 }
+
 #venue p {
-    margin-top: 5px;
+  margin-top: 5px;
   padding-top: 12px;
   padding-bottom: 18px;
-    color: white;
+  color: white;
 }
-#venue button a{
-    color: white;
+
+#venue button a {
+  color: white;
 }
-#galleryIntroImg img{
-    margin: 10px 0;
-    border-radius: 10px;
-    width:380px;
-    height: 220px;
-    transition: 1s;
+
+#galleryIntroImg img {
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 380px;
+  height: 220px;
+  transition: 1s;
 }
+
 #galleryIntroImg img:hover {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
 
 /*---------------------------------------
@@ -652,9 +696,9 @@ background-attachment:fixed;
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
+  background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 #contact .contact_des {
@@ -730,8 +774,8 @@ footer {
 }
 
 .go-top:hover {
-    background:  #0061cf79;
-    color: #ffffff;
+  background: #0061cf79;
+  color: #ffffff;
 }
 
 
@@ -739,33 +783,33 @@ footer {
    Social icon             
 -----------------------------------------*/
 .social-icon {
-    position: relative;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
 }
 
 .social-icon li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .social-icon li a {
-    color: #666;
-    border-radius: 100px;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
+  color: #666;
+  border-radius: 100px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .social-icon li a:hover {
-    background:  #0061cf79;
-    color: #ffffff;
+  background: #0061cf79;
+  color: #ffffff;
 }
 
 
@@ -793,16 +837,16 @@ footer {
   line-height: 50px;
   text-align: center;
   vertical-align: middle;
-  background:  #cacaca79;
+  background: #cacaca79;
 }
 
 .social-icon-about li a:hover {
-  background:  #a5cfff79;
+  background: #a5cfff79;
   color: #00076d;
   font-weight: 800;
 }
 
-.about-section h6{
+.about-section h6 {
   color: #aaaaaa;
   font-size: 14px;
   font-weight: 500;
@@ -814,18 +858,22 @@ footer {
    Responsive styles            
 -----------------------------------------*/
 @media (max-width: 980px) {
-    .sliderImage img{
-        width: 100px !important;
-        height: 100px !important;
-    }
+  .sliderImage img {
+    width: 100px !important;
+    height: 100px !important;
+  }
 
-    .imgDiv p{
-       font-size: 10px;
-    }
-    .imgDiv h3{
-        font-size: 13px !important;
-    }
-  p {font-size: 13px;}
+  .imgDiv p {
+    font-size: 10px;
+  }
+
+  .imgDiv h3 {
+    font-size: 13px !important;
+  }
+
+  p {
+    font-size: 13px;
+  }
 
   .custom-navbar .navbar-brand {
     font-size: 2rem;
@@ -833,19 +881,21 @@ footer {
 
   .custom-navbar .nav li a {
     font-size: 11px;
-	line-height: 20px;
+    line-height: 20px;
   }
 
-  #intro { height: 65vh; }
+  #intro {
+    height: 65vh;
+  }
 
   #video iframe {
     margin-top: 42px;
   }
 
   #contact .contact_detail {
-  background: #ffffff;
-  padding: 10rem 3rem 10rem 5rem;
-}
+    background: #ffffff;
+    padding: 10rem 3rem 10rem 5rem;
+  }
 
 }
 
@@ -861,7 +911,7 @@ footer {
     padding-top: 32px;
   }
 
-  .nav-tabs > li > a {
+  .nav-tabs>li>a {
     font-size: 13px;
   }
 
@@ -877,10 +927,10 @@ footer {
     margin-top: 82px;
   }
 
-    .exCom{
-        position: relative;
-        left: auto;
-    }
+  .exCom {
+    position: relative;
+    left: auto;
+  }
 }
 
 @media (max-width: 760px) {
@@ -893,37 +943,37 @@ footer {
 
 
 
-.home-header h1{
+.home-header h1 {
 
   font-size: 60px;
   font-weight: 700 !important;
 
 }
 
-.home-header h5{
+.home-header h5 {
   font-size: 14px;
   color: #6d6d6d;
 }
 
-.home-header h6{
+.home-header h6 {
   padding-top: 15px;
   color: #d3d3d3;
-  font-weight:400 !important ;
+  font-weight: 400 !important;
   line-height: 15px;
   letter-spacing: 1.5px;
 }
 
-.back-footer{
+.back-footer {
   background-color: #101010 !important;
   height: fit-content !important;
 }
 
-.back-footer h2{
+.back-footer h2 {
   color: #ffffff;
   font-size: 16px;
 }
 
-.diplay-flex{
+.diplay-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -931,41 +981,42 @@ footer {
   gap: 20px;
 }
 
-.chairperson-detail{
+.chairperson-detail {
   display: flex;
   flex-direction: column;
 }
 
-.chairperson-detail div{
+.chairperson-detail div {
   margin-top: -20px;
 }
 
-.chairperson-detail h3{
-font-size: 15px;
-color: #fff;
+.chairperson-detail h3 {
+  font-size: 15px;
+  color: #fff;
 }
 
-.chairperson-detail a{
+.chairperson-detail a {
   font-size: 15px;
 }
 
-.about-section h3{
+.about-section h3 {
   font-size: 35px;
   font-weight: 700;
   color: #000b4b;
 }
 
-.about-section p{
+.about-section p {
   text-align: justify;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
   .sliderImage {
     flex-direction: column !important;
-   
+
   }
 
 }
+
 /* .team-card-section{
   display: flex;
   flex-direction: row;
