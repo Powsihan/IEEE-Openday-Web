@@ -7,8 +7,8 @@
 }
 
 .custom-navbar .navbar-brand img{
-    width: 100px;
-    height: 50px;
+    /* width: 100px;
+    height: 70px; */
 }
 
 .custom-navbar .nav li a {
@@ -66,8 +66,8 @@
 
 @media (max-width:768px) {
     .custom-navbar .navbar-brand img{
-        width: 60px;
-        height: 30px;
+        /* width: 60px;
+        height: 30px; */
     }
 
 }
